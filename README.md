@@ -44,23 +44,32 @@ To implement and compare the performance of **serial computation** and **multipr
 - Iterates through each student record and matches it with relevant fee payment dates from the fees dataset.
 - Calculates the frequency of fee payment dates using a dictionary.
 - result
--Execution Time: 93.1830 seconds
-      Student Name Student ID        Major  Most Consistent Payment Day
-0     Scott Conner    SID1000          Art                           20
-1  Daniel Harrison    SID1001  Engineering                            1
-2  Lisa Mclaughlin    SID1002      Biology                           26
-3   Richard Guerra    SID1003   Psychology                           13
-4        Beth Hess    SID1004      Biology                           24
+### **Serial Computation (serial_computation.py)**
+| Student Name      | Student ID | Major        | Most Consistent Payment Day |
+|-------------------|------------|--------------|-----------------------------|
+| Scott Conner      | SID1000    | Art          | 20                          |
+| Daniel Harrison   | SID1001    | Engineering  | 1                           |
+| Lisa Mclaughlin   | SID1002    | Biology      | 26                          |
+| Richard Guerra    | SID1003    | Psychology   | 13                          |
+| Beth Hess         | SID1004    | Biology      | 24                          |
+
+- **Execution Time**: 93.1830 seconds
+
 
 ### **2. Parallel Computation (`multiprocessing_computation.py`)**
 - This script processes the data using Python's **multiprocessing** module.
 - Distributes the processing of student records across multiple CPU cores to reduce computation time.
 - Also calculates the frequency of fee payment dates using dictionaries, but in parallel.
-- Execution Time: 29.7680 seconds
-      Student Name Student ID        Major  Most Consistent Payment Day
-0     Scott Conner    SID1000          Art                           20
-1  Daniel Harrison    SID1001  Engineering                            1
-2  Lisa Mclaughlin    SID1002      Biology                           26
-3   Richard Guerra    SID1003   Psychology                           13
-4        Beth Hess    SID1004      Biology                           24
+
+### **Parallel Computation (multiprocessing_computation.py)**
+| Student Name      | Student ID | Major        | Most Consistent Payment Day |
+|-------------------|------------|--------------|-----------------------------|
+| Scott Conner      | SID1000    | Art          | 20                          |
+| Daniel Harrison   | SID1001    | Engineering  | 1                           |
+| Lisa Mclaughlin   | SID1002    | Biology      | 26                          |
+| Richard Guerra    | SID1003    | Psychology   | 13                          |
+| Beth Hess         | SID1004    | Biology      | 24                          |
+
+- **Execution Time**: 29.7680 seconds
+
 
