@@ -1,7 +1,7 @@
 # PDC_TIER-1
-PDC TIER 1 ASSIGNMENT
-Name = Saad Rashid
-roll number = 21b-013-cs
+-PDC TIER 1 ASSIGNMENT
+-Name = Saad Rashid
+-roll number = 21b-013-cs
 # Parallel vs Serial Processing Assignment
 
 This repository demonstrates the comparison between **serial processing** and **parallel processing** using Python for a data processing task involving student and fee data.
