@@ -1,5 +1,5 @@
 # PDC_TIER-1
-PDC TIER 1 ASSIGNEENT
+PDC TIER 1 ASSIGNMENT
 Name = Saad Rashid
 roll number = 21b-013-cs
 # Parallel vs Serial Processing Assignment
